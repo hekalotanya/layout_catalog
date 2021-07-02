@@ -10,6 +10,8 @@ html {
 
 body {
   min-width: 1024px;  
+  font-style: normal;
+  font-weight: normal;
 }
 
 .header {
@@ -49,7 +51,6 @@ body {
 
 .nav_link {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 60px;
@@ -106,7 +107,7 @@ body {
 }
 
 .card:nth-child(-n+4) {
-  margin-bottom: 49px;
+  margin-bottom: 48px;
 }
 
 .card:not(:nth-child(4n)) {
@@ -123,31 +124,28 @@ body {
   margin-left: 16px;
 }
 
+.container__card__image{
+  display: flex;
+  justify-content: center;
+}
+
 .card__image {
-  align-self: center;
   width: 160px;
   height: 134px;
-  background-image: url(../images/imac.jpeg) ;
-  background-size: contain;
-  background-position: center;
-  
 }
 
 .card__info {
   margin-top: 40px;
   width: 168px;
   height: 36px;
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
   color: #060B35;
 }
 
-.card__cod {
+.card__code {
   margin-top: 4px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 10px;
   line-height: 14px;
   color: #616070;
@@ -159,7 +157,6 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .container {
@@ -169,7 +166,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 .stars {
@@ -178,7 +174,6 @@ body {
   align-items: center;
   justify-content: center;
   height: 16px;
-
 }
 
 .stars__star {
@@ -188,17 +183,13 @@ body {
   height: 16px;
   width: 16px;
   margin: 2px;
-
 }
 
 .stars--4 .stars__star:nth-of-type(-n+4) {
   background-image: url(../images/star-active.svg);
-
 }
 
 .card__stars__sign {
-  font-style: normal;
-  font-weight: normal;
   font-size: 10px;
   line-height: 14px;
   color: #060B35;
@@ -213,15 +204,12 @@ body {
 }
 
 .card__price__sign {
-  font-style: normal;
-  font-weight: normal;
   font-size: 12px;
   line-height: 20px;
   color: #616070;
 }
 
-.card__price__price {
-  font-style: normal;
+.card__price__value {
   font-weight: bold;
   font-size: 16px;
   line-height: 18px;
@@ -239,7 +227,6 @@ body {
   line-height: 40px;
   text-transform: uppercase;
   text-decoration: none;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   color: white;  
